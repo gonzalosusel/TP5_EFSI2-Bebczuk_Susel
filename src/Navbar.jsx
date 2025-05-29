@@ -1,4 +1,4 @@
-import { Outlet } from "react-router-dom";
+import { Outlet, Link } from "react-router-dom";
 import "./Navbar.css";
 
 const Navbar = () => {
@@ -6,9 +6,9 @@ const Navbar = () => {
     <>
       <nav>
         <ul>
-          <li><a href="/TP5_EFSI2-Bebczuk_Susel/">Home</a></li>
-          <li><a href="/TP5_EFSI2-Bebczuk_Susel/NuevasReservas">Nuevas reservas</a></li>
-          <li><a href="/TP5_EFSI2-Bebczuk_Susel/MisCitas">Mis citas</a></li>
+          <li><Link to="/TP5_EFSI2-Bebczuk_Susel/">Home</Link></li>
+          <li><Link to="/TP5_EFSI2-Bebczuk_Susel/NuevasReservas">Nuevas reservas</Link></li>
+          <li><Link to="/TP5_EFSI2-Bebczuk_Susel/MisCitas">Mis citas</Link></li>
         </ul>
       </nav>      
       <main>

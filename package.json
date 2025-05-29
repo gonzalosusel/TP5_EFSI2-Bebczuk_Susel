@@ -2,7 +2,7 @@
   "name": "tp5-efsi2-bebczuk-susel",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://MatiasBebczuk.github.io/TP5_EFSI2-Bebczuk_Susel",
+  "homepage": "https://gonzalosusel.github.io/TP5_EFSI2-Bebczuk_Susel",
   "type": "module",
   "scripts": {
     "dev": "vite",
